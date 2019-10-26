@@ -15,12 +15,17 @@ class Song
     @artist.songs << self
   end
   
+<<<<<<< HEAD
   def self.all
     @@all
   end
   
   def artist_name
     @artist ? @artist.name : nil
+=======
+  def artist
+    @artist
+>>>>>>> 775e59e0399c068dc7e70d1447e7f9425f003332
   end
   
 end
